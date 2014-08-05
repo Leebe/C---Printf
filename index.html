@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="C---printf : C 函数">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>C---printf</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Leebe/C---Printf">View on GitHub</a>
+
+          <h1 id="project_title">C---printf</h1>
+          <h2 id="project_tagline">C 函数</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Leebe/C---Printf/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Leebe/C---Printf/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Printf()函数包含在库stdio.h中，Printf("输出形式", 输出量)</p>
+
+<p>输出形式中以%[]表示为函数中输出量，其中：
+%d为整形，%ld为长整形
+%f为浮点型，%lf为长浮点型
+%c为字符，%s为字符串
+%o为八进制，%x为十六进制
+%e为指数形式输出小数
+%g为短长度的输出单双精度小数</p>
+
+<p>%5.4f表示输出小数点前5位后4位，1.1表示为00001.1000
+%8s表示为输出字符串长度为8，abc表示为     abc</p>
+
+<p>如欲在结果中输出%符号，应为%%</p>
+
+<ul>
+<li>  结果左对齐，右边填空格</li>
+<li>  输出符号(正号或负号)
+空格  输出值为正时冠以空格，为负时冠以负号
+#   对c、s、d、u类无影响；对o类，在输出时加前缀o；对x类，在输出时加前缀0x；对e、g、f 类当结果有小数时才给出小数点。</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">C---printf maintained by <a href="https://github.com/Leebe">Leebe</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
